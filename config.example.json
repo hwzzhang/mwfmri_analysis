@@ -1,0 +1,21 @@
+{
+  "output_root": "outputs",
+  "gray_matter_mask": "data/resources/gray_matter_mask.nii.gz",
+  "contrast_image_root": "data/contrasts",
+  "contrast_filename": "%s_con_0015.nii",
+  "aal3_image": "data/resources/AAL3v1_1mm.nii",
+  "aal3_labels": "data/resources/AAL3v1_1mm_Labels.mat",
+  "post_movie_scores": "data/resources/post_movie_scores.csv",
+  "tasks": {
+    "classification": {
+      "tabular_feature_archive": "data/classification/tabular/baseline_features.npz",
+      "whole_brain_feature_archive": "data/classification/whole_brain/baseline_features.npz",
+      "label_key": "base_moca_label"
+    },
+    "forecast": {
+      "tabular_feature_archive": "data/forecast/tabular/baseline_features.npz",
+      "whole_brain_feature_archive": "data/forecast/whole_brain/baseline_features.npz",
+      "label_key": "two_year_follow_ratio_change_label"
+    }
+  }
+}

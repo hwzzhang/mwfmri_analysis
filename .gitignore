@@ -1,0 +1,33 @@
+# Local paths and protected inputs
+config.json
+data/
+private/
+atlases/
+*.nii
+*.nii.gz
+*.npz
+*.mat
+
+# Generated results and participant-level provenance
+outputs/
+mask_manifest.json
+outer_splits.csv
+record_*_CV.csv
+
+# Python / MATLAB / editor artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+*.asv
+*.m~
+.DS_Store
+.idea/
+.vscode/
+
+# Logs and archives
+*.log
+*.zip
+*.tar
+*.tar.gz
