@@ -9,7 +9,7 @@ arguments
     output_root (1,1) string
     image_root (1,1) string
     contrast_pattern (1,1) string = "%s_con_0015.nii"
-    fwe_alpha (1,1) double = 0.01
+    fwe_alpha (1,1) double = 0.01  % FWE threshold; 0.05 can also be used
     min_extent (1,1) double = 16
     work_root (1,1) string = ""
     job_start (1,1) double = 1
